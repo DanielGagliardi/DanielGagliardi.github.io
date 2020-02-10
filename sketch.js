@@ -143,7 +143,7 @@ function setup() {
 
 
 	background("black");
-	framerate(60);
+	frameRate(60);
 }
 
 function draw() {
