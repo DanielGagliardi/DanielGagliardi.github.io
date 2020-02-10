@@ -2,7 +2,7 @@ var shapeNames = ["deer", "adarsh","fourier", "pi", "sigma"];
 var shapeIndex = 0;
 
 var t;
-var timeIncrement = 0.001;
+var timeIncrement = 0.0002;
 
 var fourierSeries;
 var req;
@@ -143,7 +143,7 @@ function setup() {
 
 
 	background("black");
-	
+	framerate(60);
 }
 
 function draw() {
