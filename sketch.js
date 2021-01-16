@@ -2,7 +2,7 @@ var shapeNames = ["deer", "pi", "sigma"];
 var shapeIndex = 0;
 
 var t;
-var timeIncrement = 0.001;
+var timeIncrement = 0.002;
 
 var fourierSeries;
 var req;
